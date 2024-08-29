@@ -24,96 +24,302 @@ export default {
         {
           id: 1,
           texto:
-            'Cuáles son los tipos de explotación en los sistemas productivos avícolas:',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
-          barajarRespuestas: false,
+            '¿Cuál es la base de las relaciones dentro de una organización?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Explotación intensiva', esCorrecta: false },
-            { id: 'b', texto: 'Explotación semi intensiva', esCorrecta: false },
+            { id: 'a', texto: 'La tecnología.', esCorrecta: false },
+            { id: 'b', texto: 'La comunicación.', esCorrecta: false },
             {
               id: 'c',
-              texto: 'Explotación extensiva o traspatio',
+              texto: 'El liderazgo.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'La estructura organizacional.',
               esCorrecta: false,
             },
-            { id: 'd', texto: 'Todas la anteriores', esCorrecta: true },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente ....',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
           id: 2,
-          texto:
-            'Se lanzan dos proyectiles desde el suelo con la misma velocidad inicial, pero uno se lanza horizontalmente y el otro se lanza formando un ángulo de 45 grados con la horizontal. Considerando la resistencia del aire despreciable, ¿cuáles de las siguientes afirmaciones son verdaderas?',
-          imagen: require('@/assets/componentes/pregunta_2.png'),
+          texto: '¿Qué elemento es el primero en el proceso comunicativo?',
+          imagen: require('@/assets/curso/img2.svg'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Ambos proyectiles alcanzarán la misma altura máxima.',
+              texto: 'El receptor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El mensaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El emisor.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'El canal.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué actitud debe tener el emisor para lograr una comunicación efectiva?',
+          imagen: require('@/assets/curso/img3.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Actitud negativa hacia el mensaje.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Actitud positiva frente al mensaje y los receptores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Indiferencia hacia la comunicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Actitud crítica hacia el receptor.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 4,
+          texto:
+            '¿Qué se necesita para que exista una empresa, según el documento?',
+          imagen: require('@/assets/curso/img4.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Un mercado competitivo.', esCorrecta: false },
+            { id: 'b', texto: 'Personal que la conforme.', esCorrecta: true },
+            {
+              id: 'c',
+              texto: 'Una fuerte inversión de capital.',
+              esCorrecta: false,
+            },
+            { id: 'd', texto: 'Una marca reconocida.', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es el propósito principal de una carta al personal dentro de una organización?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Crear redes sociales internas.',
               esCorrecta: false,
             },
             {
               id: 'b',
               texto:
-                'El proyectil lanzado horizontalmente recorrerá una distancia horizontal mayor que el proyectil lanzado a 45 grados',
+                'Difundir información importante como cambios en la organización.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Motivar la participación en eventos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Publicar resultados financieros.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Qué permite el ámbito de formación y socialización en la comunicación organizacional?',
+          imagen: require('@/assets/curso/img2.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Reforzar la cultura institucional.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Divulgar boletines.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto:
-                'La velocidad horizontal del proyectil lanzado a 45 grados será mayor que la velocidad horizontal del proyectil lanzado horizontalmente.',
-              esCorrecta: true,
+              texto: 'Manejar las relaciones públicas.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto:
-                'La velocidad total del proyectil lanzado a 45 grados en el punto más alto de su trayectoria será la misma que la velocidad horizontal del proyectil lanzado horizontalmente en cualquier punto de su trayectoria.',
+              texto: 'Coordinar la logística empresarial.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto:
-            '¡Perfecto! Has seleccionado la respuesta correcta.',
-          mensaje_incorrecto: 'Esa no es la respuesta correcta. ¡Ánimo!',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
-          id: 3,
-          texto: 'Texto de la tercera pregunta 3',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
-          opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Esa es la respuesta correcta.',
-          mensaje_incorrecto: 'Respuesta incorrecta. ¡Inténtalo de nuevo!',
-        },
-        {
-          id: 4,
-          texto: 'Texto de la cuarta pregunta 4',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          id: 7,
+          texto:
+            '¿Cuál es una ventaja del uso del correo electrónico en la comunicación organizacional?',
+          imagen: require('@/assets/curso/img3.svg'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: true },
-            { id: 'b', texto: 'Opción B', esCorrecta: false },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Rapidez e interactividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Alta seguridad en la información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Comunicación verbal eficiente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Difusión limitada de mensajes.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
         {
-          id: 5,
-          texto: 'Texto de la quinta pregunta 5',
-          imagen: require('@/assets/curso/banner-princiapal.svg'),
+          id: 8,
+          texto:
+            '¿Qué herramienta de gestión interna es utilizada para captar, convencer y persuadir a las personas?',
+          imagen: require('@/assets/curso/img4.svg'),
+          barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'Opción A', esCorrecta: false },
-            { id: 'b', texto: 'Opción B', esCorrecta: true },
-            { id: 'c', texto: 'Opción C', esCorrecta: false },
-            { id: 'd', texto: 'Opción D', esCorrecta: false },
+            {
+              id: 'a',
+              texto: 'Reuniones.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Publicaciones y comunicados.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Buzón de sugerencias.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Cuadernillo de bienvenida.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Respuesta correcta! Felicidades.',
-          mensaje_incorrecto: 'Respuesta incorrecta. Intenta nuevamente.',
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué deben realizar las organizaciones para adaptarse a los cambios sociales y tecnológicos?',
+          imagen: require('@/assets/curso/img1.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Modificar las estructuras organizacionales.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir costos de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Desarrollar nuevos productos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Aumentar la publicidad externa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Qué tipo de evaluación es necesaria para mantener una estructura de comunicación interna efectiva?',
+          imagen: require('@/assets/curso/img2.svg'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Evaluación anual.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evaluación periódica del proceso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Evaluación financiera.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Evaluación externa.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Felicitaciones, has acertado.',
+          mensaje_incorrecto:
+            'La respuesta es incorrecta. Te sugerimos revisar nuevamente el componente formativo.',
         },
       ],
       mensaje_final_aprobado:
