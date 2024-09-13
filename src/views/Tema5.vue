@@ -24,7 +24,7 @@
                 img(src='@/assets/curso/tema5/img3.png', style="width: 250px", alt='').m-auto
           .row.align-items-center(numero="3" titulo="Cuadernillo de bienvenida")
             .col-lg-8.mb-4.mb-lg-0
-              p.mb-0 Sirve como guía para nuevas incorporaciones, incluyendo una síntesis histórica, normas internas, organigrama, y otros detalles relevantes de la institución.
+              p.mb-0 Sirve como guía para nuevas incorporaciones, incluyendo una síntesis histórica, normas internas, organigrama y otros detalles relevantes de la institución.
             .col-lg-4
               figure
                 img(src='@/assets/curso/tema5/img4.png', style="width: 250px", alt='').m-auto
@@ -76,7 +76,7 @@
               .row
                 .col-12
                   .p-4.bg-c7
-                    p.mb-0 En el contexto de la Revolución Científico-Tecnológica, las interacciones cara a cara han disminuido. Un número creciente de redes intermedias organiza la interacción. Por ello, resulta necesario establecer nuevas relaciones de intercambio, no solo entre individuos, sino también entre estos y la organización como espacio de pertenencia. Entre las herramientas que una empresa puede utilizar se incluyen:
+                    p.mb-0 En el contexto de la Revolución Científico-Tecnológica, las interacciones cara a cara han disminuido. Un número creciente de redes intermedias organiza la interacción. Por ello, resulta necesario establecer nuevas relaciones de intercambio, no solo entre individuos, sino también entre estos y la organización como espacio de pertenencia. Entre las herramientas que una empresa puede utilizar, se incluyen:
             .col-lg-3.mb-4.mb-lg-0.order-1.order-lg-2(data-aos="fade-left")
               figure
                 img(src='@/assets/curso/tema5/img1.svg', style="width: 250px", alt='').m-auto

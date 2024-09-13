@@ -94,7 +94,7 @@
         .p-4.bg-c5
           figure.mb-4
             img(src='@/assets/curso/tema2/img2.svg', style="width: 90px", alt='')
-          p.mb-0 Actitud positiva hacia el mensaje que se quiere transmitir, asi como hacia los receptores y la misma comunicación.
+          p.mb-0 Actitud positiva hacia el mensaje que se quiere transmitir, así como hacia los receptores y la misma comunicación.
       .col-10.col-md-6.col-lg-4.mb-4(data-aos="fade-down")
         .p-4.bg-c5
           figure.mb-4
@@ -114,7 +114,7 @@
         .p-4.bg-c5
           figure.mb-4
             img(src='@/assets/curso/tema2/img6.svg', style="width: 90px", alt='')
-          p.mb-0 Capacidad cultural, en relación con la naturaleza y el nivel del mensaje recibido, para poder integrarlo en contexto siéntficativo.
+          p.mb-0 Capacidad cultural, en relación con la naturaleza y el nivel del mensaje recibido, para poder integrarlo en contexto significativo.
       .col-10.col-md-6.col-lg-4(data-aos="fade-up")
         .p-4.bg-c5
           figure.mb-4

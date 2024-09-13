@@ -29,11 +29,11 @@ export default {
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'La tecnología.', esCorrecta: false },
-            { id: 'b', texto: 'La comunicación.', esCorrecta: false },
+            { id: 'b', texto: 'La comunicación.', esCorrecta: true },
             {
               id: 'c',
               texto: 'El liderazgo.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'd',

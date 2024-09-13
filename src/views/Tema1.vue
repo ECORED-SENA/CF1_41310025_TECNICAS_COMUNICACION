@@ -44,7 +44,7 @@
                 img(src='@/assets/curso/tema1/img4.png', style="width: 260px", alt='').m-auto
             .col-lg-6
               p.mb-0 #[b Calidad de relaciones]
-              p.mb-0 Mejora las relaciones públicas, incrementa el desempeño social, y contribuye a la calidad de vida, fidelidad de clientes, y cohesión social.
+              p.mb-0 Mejora las relaciones públicas, incrementa el desempeño social, y contribuye a la calidad de vida, fidelidad de clientes y cohesión social.
     Separador
     .row.align-items-center.mb-4(data-aos="fade-right")
       .col-auto.pe-0

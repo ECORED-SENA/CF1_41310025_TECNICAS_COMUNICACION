@@ -6,7 +6,7 @@
     .row.justify-content-center
       .col-12.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="La síntesis presenta  la comunicación organizacional en una empresa, desglosando sus componentes clave como los elementos básicos como emisor, receptor, mensaje, canal, y código, los niveles de comunicación interna y externa, las estrategias adaptativas como la personalización de mensajes y el uso de información relevante, así como las herramientas de gestión que incluyen cartas al personal, manuales de estilo y medios electrónicos.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono
