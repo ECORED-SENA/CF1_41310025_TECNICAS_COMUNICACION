@@ -133,7 +133,7 @@
               p.text-white Todo plan de comunicación externa debe estar alineado con la comunicación interna. La importancia de esta alineación radica en que permite:
               TarjetaAudio.color-primario(
                 texto="Comunicación el timón del éxito organizacional"
-                :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+                :audio="require('@/assets/componentes/audios/Comunicacion.mp3')"
                 @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
                 .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
