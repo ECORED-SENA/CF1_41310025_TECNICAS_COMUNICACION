@@ -125,14 +125,6 @@ export default {
       link: 'https://youtu.be/uyfkdAMQAI8?si=NYxHOmqo2hRnMaGk',
     },
     {
-      tema: 'Comunicación interna y externa',
-      referencia:
-        'Roca Pérez, X. Romeo Delgado, M. & Almenara Aloy, J. (2014). Comunicación interna en la empresa: (ed.). Editorial UOC.',
-      tipo: 'Capítulo 2',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/115903',
-    },
-    {
       tema: 'Plan de comunicación interna',
       referencia:
         'Factorial HR. (s.f.). Claves para una comunicación interna eficaz con Blanca Rodriguez [Podcast].',
@@ -188,8 +180,6 @@ export default {
     {
       referencia:
         'Aguirre, D. (2017). Comunicación interna sin fronteras: tendencias y casos en América Latina: (ed.). RIL editores. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/106272',
     },
     {
       referencia:
@@ -205,8 +195,6 @@ export default {
     {
       referencia:
         'Bustinduy, I. (2012). La comunicación interna en las organizaciones 2.0: (ed.). Editorial UOC.',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/56267',
     },
     {
       referencia:
@@ -216,8 +204,6 @@ export default {
     {
       referencia:
         'Cuenca, J. (2018). Guía fundamental de la comunicación interna: (ed.). Editorial UOC. ',
-      link:
-        'https://elibro-net.bdigital.sena.edu.co/es/lc/senavirtual/titulos/105390',
     },
     {
       referencia:
